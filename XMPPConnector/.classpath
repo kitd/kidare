@@ -3,5 +3,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
 	<classpathentry kind="lib" path="C:/workitems/xmpp/smack_3_3_1/smack.jar"/>
+	<classpathentry kind="var" path="MQSI_HOME/classes/connectors.jar"/>
+	<classpathentry kind="var" path="MQSI_HOME/classes/jplugin2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurableservice 
+	connectorClassName="com.ibm.broker.connector.xmpp.XMPPConnectorFactory" 
+	csName="XMPP" 
+	csType="ConnectorProviders" 
+	jarsURL="C:\workitems\xmpp\jars" 
+	nativeLibs="default_Path" 
+	property1="kidare.hursley.ibm.com" property2="5222" property3="iib" property4="m86gpdOF" property5=""/>

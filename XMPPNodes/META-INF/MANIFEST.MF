@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-Vendor: XMPPNodes Provider
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Name: XMPPNodes Plug-in
+Bundle-SymbolicName: XMPPNodes; singleton:=true
+Require-Bundle: com.ibm.etools.mft.api,
+ com.ibm.etools.mft.util.ui,
+ com.ibm.etools.mft.config,
+ com.ibm.etools.mft.ibmnodes
+Bundle-Version: 1.0.0.qualifier
+Bundle-ManifestVersion: 2
+

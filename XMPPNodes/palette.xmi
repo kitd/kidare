@@ -6,9 +6,9 @@
       <entryLabel xsi:type="utility:TranslatableString" key="entry.com.ibm.broker.connector.xmpp.nodes.XMPPSend" bundleName="palette" pluginId="XMPPNodes"/>
       <entryShortDescription xsi:type="utility:TranslatableString" key="tooltip.com.ibm.broker.connector.xmpp.nodes.XMPPSend" bundleName="palette" pluginId="XMPPNodes"/>
     </cmpEntries>
-    <cmpEntries xsi:type="palette:ToolEntry" xmi:id="com.ibm.broker.connector.xmpp.nodes.XMPPReceive" icon16Name="platform:/plugin/XMPPNodes/icons/full/clcl16/com/ibm/broker/connector/xmpp/nodes/XMPPReceive.gif" icon32Name="platform:/plugin/XMPPNodes/icons/full/obj32/com/ibm/broker/connector/xmpp/nodes/XMPPReceive.gif" toolClassName="com.ibm.etools.mft.flow.editor.MFTNodeCreationTool" toolClassPluginId="com.ibm.etools.mft.flow" nodeURI="com/ibm/broker/connector/xmpp/nodes/XMPPReceive.msgnode">
-      <entryLabel xsi:type="utility:TranslatableString" key="entry.com.ibm.broker.connector.xmpp.nodes.XMPPReceive" bundleName="palette" pluginId="XMPPNodes"/>
-      <entryShortDescription xsi:type="utility:TranslatableString" key="tooltip.com.ibm.broker.connector.xmpp.nodes.XMPPReceive" bundleName="palette" pluginId="XMPPNodes"/>
+    <cmpEntries xsi:type="palette:ToolEntry" xmi:id="com.ibm.broker.connector.xmpp.nodes.ComIbmEventInput" icon16Name="platform:/plugin/XMPPNodes/icons/full/clcl16/com/ibm/broker/connector/xmpp/nodes/ComIbmEventInput.gif" icon32Name="platform:/plugin/XMPPNodes/icons/full/obj32/com/ibm/broker/connector/xmpp/nodes/ComIbmEventInput.gif" toolClassName="com.ibm.etools.mft.flow.editor.MFTNodeCreationTool" toolClassPluginId="com.ibm.etools.mft.flow" nodeURI="com/ibm/broker/connector/xmpp/nodes/ComIbmEventInput.msgnode">
+      <entryLabel xsi:type="utility:TranslatableString" key="entry.com.ibm.broker.connector.xmpp.nodes.ComIbmEventInput" bundleName="palette" pluginId="XMPPNodes"/>
+      <entryShortDescription xsi:type="utility:TranslatableString" key="tooltip.com.ibm.broker.connector.xmpp.nodes.ComIbmEventInput" bundleName="palette" pluginId="XMPPNodes"/>
     </cmpEntries>
   </cmpGroups>
 </palette:CategoryCmp>

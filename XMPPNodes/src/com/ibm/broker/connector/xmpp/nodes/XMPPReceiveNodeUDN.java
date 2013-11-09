@@ -14,9 +14,9 @@ public class XMPPReceiveNodeUDN extends Node {
 	private static final long serialVersionUID = 1L;
 
 	// Node constants
-	protected final static String NODE_TYPE_NAME = "com/ibm/broker/connector/xmpp/nodes/XMPPReceiveNode";
-	protected final static String NODE_GRAPHIC_16 = "platform:/plugin/XMPPNodes/icons/full/obj16/com/ibm/broker/connector/xmpp/nodes/XMPPReceive.gif";
-	protected final static String NODE_GRAPHIC_32 = "platform:/plugin/XMPPNodes/icons/full/obj30/com/ibm/broker/connector/xmpp/nodes/XMPPReceive.gif";
+	protected final static String NODE_TYPE_NAME = "com/ibm/broker/connector/xmpp/nodes/EventInputNode";
+	protected final static String NODE_GRAPHIC_16 = "platform:/plugin/XMPPNodes/icons/full/obj16/com/ibm/broker/connector/xmpp/nodes/ComIbmEventInput.gif";
+	protected final static String NODE_GRAPHIC_32 = "platform:/plugin/XMPPNodes/icons/full/obj30/com/ibm/broker/connector/xmpp/nodes/ComIbmEventInput.gif";
 
 	protected final static String PROPERTY_CONNECTORNAME = "connectorName";
 	protected final static String PROPERTY_JABBERID = "JabberID";
@@ -24,21 +24,18 @@ public class XMPPReceiveNodeUDN extends Node {
 
 	protected NodeProperty[] getNodeProperties() {
 		return new NodeProperty[] {
-			new NodeProperty(XMPPReceiveNodeUDN.PROPERTY_CONNECTORNAME,		NodeProperty.Usage.MANDATORY,	false,	NodeProperty.Type.STRING, "XMPP","","",	"com/ibm/broker/connector/xmpp/nodes/XMPPReceive",	"XMPPNodes"),
-			new NodeProperty(XMPPReceiveNodeUDN.PROPERTY_JABBERID,		NodeProperty.Usage.MANDATORY,	true,	NodeProperty.Type.STRING, null,"","",	"com/ibm/broker/connector/xmpp/nodes/XMPPReceive",	"XMPPNodes"),
-			new NodeProperty(XMPPReceiveNodeUDN.PROPERTY_PASSWORD,		NodeProperty.Usage.MANDATORY,	true,	NodeProperty.Type.STRING, null,"","",	"com/ibm/broker/connector/xmpp/nodes/XMPPReceive",	"XMPPNodes")
+			new NodeProperty(XMPPReceiveNodeUDN.PROPERTY_CONNECTORNAME,		NodeProperty.Usage.MANDATORY,	false,	NodeProperty.Type.STRING, "XMPP","","",	"com/ibm/broker/connector/xmpp/nodes/ComIbmEventInput",	"XMPPNodes"),
+			new NodeProperty(XMPPReceiveNodeUDN.PROPERTY_JABBERID,		NodeProperty.Usage.MANDATORY,	true,	NodeProperty.Type.STRING, null,"","",	"com/ibm/broker/connector/xmpp/nodes/ComIbmEventInput",	"XMPPNodes"),
+			new NodeProperty(XMPPReceiveNodeUDN.PROPERTY_PASSWORD,		NodeProperty.Usage.MANDATORY,	true,	NodeProperty.Type.STRING, null,"","",	"com/ibm/broker/connector/xmpp/nodes/ComIbmEventInput",	"XMPPNodes")
 		};
 	}
 
 	public XMPPReceiveNodeUDN() {
 	}
 
-	public final InputTerminal INPUT_TERMINAL_IN = new InputTerminal(this,"InTerminal.in");
 	@Override
 	public InputTerminal[] getInputTerminals() {
-		return new InputTerminal[] {
-			INPUT_TERMINAL_IN
-	};
+		return null;
 	}
 
 	public final OutputTerminal OUTPUT_TERMINAL_OUT = new OutputTerminal(this,"OutTerminal.out");

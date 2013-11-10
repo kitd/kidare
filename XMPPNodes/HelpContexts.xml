@@ -5,7 +5,7 @@
     <context id="com.ibm.broker.connector.xmpp.nodes.XMPPSend" title="XMPPSend">
         <description>XMPPSend</description>
     </context>
-    <context id="com.ibm.broker.connector.xmpp.nodes.XMPPReceive" title="XMPPReceive">
+    <context id="com.ibm.broker.connector.xmpp.nodes.ComIbmEventInput" title="XMPPReceive">
         <description>XMPPReceive</description>
     </context>
 </contexts>

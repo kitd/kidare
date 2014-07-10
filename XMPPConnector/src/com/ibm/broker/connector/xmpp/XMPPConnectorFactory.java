@@ -28,6 +28,10 @@ public class XMPPConnectorFactory extends ConnectorFactory {
 	public XMPPConnectorFactory() {
 		super();
 		System.out.println("XMPP ctor");
+		System.out.println("broker.jarpath="+System.getProperty("broker.jarpath"));
+		System.out.println("broker.envclasspath="+System.getProperty("broker.envclasspath"));
+		System.out.println("broker.externalResourcesJarsURLS="+System.getProperty("broker.externalResourcesJarsURLS"));
+		System.out.println("java.class.path="+System.getProperty("java.class.path"));
 	}
 
 	XMPPConnection getConnection() {

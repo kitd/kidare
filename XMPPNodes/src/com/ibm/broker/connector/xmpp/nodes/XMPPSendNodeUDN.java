@@ -14,17 +14,17 @@ public class XMPPSendNodeUDN extends Node {
 	private static final long serialVersionUID = 1L;
 
 	// Node constants
-	protected final static String NODE_TYPE_NAME = "com/ibm/broker/connector/xmpp/nodes/XMPPSendNode";
-	protected final static String NODE_GRAPHIC_16 = "platform:/plugin/XMPPNodes/icons/full/obj16/com/ibm/broker/connector/xmpp/nodes/XMPPSend.gif";
-	protected final static String NODE_GRAPHIC_32 = "platform:/plugin/XMPPNodes/icons/full/obj30/com/ibm/broker/connector/xmpp/nodes/XMPPSend.gif";
+	protected final static String NODE_TYPE_NAME = "com/ibm/broker/connector/xmpp/nodes/ComIbm/OutputNode";
+	protected final static String NODE_GRAPHIC_16 = "platform:/plugin/XMPPNodes/icons/full/obj16/com/ibm/broker/connector/xmpp/nodes/ComIbmOutput.gif";
+	protected final static String NODE_GRAPHIC_32 = "platform:/plugin/XMPPNodes/icons/full/obj30/com/ibm/broker/connector/xmpp/nodes/ComIbmOutput.gif";
 
 	protected final static String PROPERTY_TO = "To";
 	protected final static String PROPERTY_CONNECTORNAME = "connectorName";
 
 	protected NodeProperty[] getNodeProperties() {
 		return new NodeProperty[] {
-			new NodeProperty(XMPPSendNodeUDN.PROPERTY_TO,		NodeProperty.Usage.MANDATORY,	true,	NodeProperty.Type.STRING, null,"","",	"com/ibm/broker/connector/xmpp/nodes/XMPPSend",	"XMPPNodes"),
-			new NodeProperty(XMPPSendNodeUDN.PROPERTY_CONNECTORNAME,		NodeProperty.Usage.MANDATORY,	false,	NodeProperty.Type.STRING, "XMPP","","",	"com/ibm/broker/connector/xmpp/nodes/XMPPSend",	"XMPPNodes")
+			new NodeProperty(XMPPSendNodeUDN.PROPERTY_TO,		NodeProperty.Usage.MANDATORY,	true,	NodeProperty.Type.STRING, null,"","",	"com/ibm/broker/connector/xmpp/nodes/ComIbmOutput",	"XMPPNodes"),
+			new NodeProperty(XMPPSendNodeUDN.PROPERTY_CONNECTORNAME,		NodeProperty.Usage.MANDATORY,	false,	NodeProperty.Type.STRING, "XMPP","","",	"com/ibm/broker/connector/xmpp/nodes/ComIbmOutput",	"XMPPNodes")
 		};
 	}
 

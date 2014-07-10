@@ -2,13 +2,13 @@
 <palette:CategoryCmp xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:palette="http://www.ibm.com/wbi/2005/eflow_palette" xmlns:utility="http://www.ibm.com/wbi/2005/eflow_utility" xmi:id="XMPP">
   <categoryLabel xsi:type="utility:TranslatableString" key="category.name" bundleName="palette" pluginId="XMPPNodes"/>
   <cmpGroups xsi:type="palette:GroupCmp">
-    <cmpEntries xsi:type="palette:ToolEntry" xmi:id="com.ibm.broker.connector.xmpp.nodes.XMPPSend" icon16Name="platform:/plugin/XMPPNodes/icons/full/clcl16/com/ibm/broker/connector/xmpp/nodes/XMPPSend.gif" icon32Name="platform:/plugin/XMPPNodes/icons/full/obj32/com/ibm/broker/connector/xmpp/nodes/XMPPSend.gif" toolClassName="com.ibm.etools.mft.flow.editor.MFTNodeCreationTool" toolClassPluginId="com.ibm.etools.mft.flow" nodeURI="com/ibm/broker/connector/xmpp/nodes/XMPPSend.msgnode">
-      <entryLabel xsi:type="utility:TranslatableString" key="entry.com.ibm.broker.connector.xmpp.nodes.XMPPSend" bundleName="palette" pluginId="XMPPNodes"/>
-      <entryShortDescription xsi:type="utility:TranslatableString" key="tooltip.com.ibm.broker.connector.xmpp.nodes.XMPPSend" bundleName="palette" pluginId="XMPPNodes"/>
-    </cmpEntries>
     <cmpEntries xsi:type="palette:ToolEntry" xmi:id="com.ibm.broker.connector.xmpp.nodes.ComIbmEventInput" icon16Name="platform:/plugin/XMPPNodes/icons/full/clcl16/com/ibm/broker/connector/xmpp/nodes/ComIbmEventInput.gif" icon32Name="platform:/plugin/XMPPNodes/icons/full/obj32/com/ibm/broker/connector/xmpp/nodes/ComIbmEventInput.gif" toolClassName="com.ibm.etools.mft.flow.editor.MFTNodeCreationTool" toolClassPluginId="com.ibm.etools.mft.flow" nodeURI="com/ibm/broker/connector/xmpp/nodes/ComIbmEventInput.msgnode">
       <entryLabel xsi:type="utility:TranslatableString" key="entry.com.ibm.broker.connector.xmpp.nodes.ComIbmEventInput" bundleName="palette" pluginId="XMPPNodes"/>
       <entryShortDescription xsi:type="utility:TranslatableString" key="tooltip.com.ibm.broker.connector.xmpp.nodes.ComIbmEventInput" bundleName="palette" pluginId="XMPPNodes"/>
+    </cmpEntries>
+    <cmpEntries xsi:type="palette:ToolEntry" xmi:id="com.ibm.broker.connector.xmpp.nodes.ComIbmOutput" icon16Name="platform:/plugin/XMPPNodes/icons/full/clcl16/com/ibm/broker/connector/xmpp/nodes/ComIbmOutput.gif" icon32Name="platform:/plugin/XMPPNodes/icons/full/obj32/com/ibm/broker/connector/xmpp/nodes/ComIbmOutput.gif" toolClassName="com.ibm.etools.mft.flow.editor.MFTNodeCreationTool" toolClassPluginId="com.ibm.etools.mft.flow" nodeURI="com/ibm/broker/connector/xmpp/nodes/ComIbmOutput.msgnode">
+      <entryLabel xsi:type="utility:TranslatableString" key="entry.com.ibm.broker.connector.xmpp.nodes.ComIbmOutput" bundleName="palette" pluginId="XMPPNodes"/>
+      <entryShortDescription xsi:type="utility:TranslatableString" key="tooltip.com.ibm.broker.connector.xmpp.nodes.ComIbmOutput" bundleName="palette" pluginId="XMPPNodes"/>
     </cmpEntries>
   </cmpGroups>
 </palette:CategoryCmp>

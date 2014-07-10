@@ -10,7 +10,8 @@
     <extension point="com.ibm.etools.mft.api.nodes"/>
     <extension point="com.ibm.etools.mft.uri.pluginspace">
         <directory>
-            <file encoding="Cp1252" name="com/ibm/broker/connector/xmpp/nodes/XMPPSend.msgnode"/>
+            <file encoding="Cp1252" name="com/ibm/broker/connector/xmpp/nodes/ComIbmOutput.msgnode"/>
+            <file encoding="Cp1252" name="com/ibm/broker/connector/xmpp/nodes/ComIbmEventInput.msgnode"/>
         </directory>
     </extension>
 </plugin>
